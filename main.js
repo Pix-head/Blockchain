@@ -151,7 +151,6 @@ const hardTest = (index) => {
 		return;
 	}
 
-
 	let content = fs.readFileSync(DIRNAME + currBlockName, "utf-8");
 	let currBlockContent = JSON.parse(content);
 
